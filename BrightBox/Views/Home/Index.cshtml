@@ -1,0 +1,36 @@
+﻿<div id ="body">
+    <div id="statusForm">
+        <select id="selStatus" class="unstyled" disabled>
+            <option value="0">Все работает штатно, работы по обновлению не ведутся</option>
+            <option value="1">Сервис недоступен, ведутся технические работы</option>
+            <option value="2">Сейчас все работает штатно, но на дд.мм.гггг запланированы работы</option>
+        </select>
+        <div id="editStatus">
+            <div id="editDatetime">
+                <label for="Datetime">Укажите дату технических работ:</label>
+                <input id="datePicker" type="date" class="unstyled"/>
+            </div>
+            <input type="button" id="saveTechnicalworks" value="Сохранить"/>
+        </div>
+
+
+    </div>
+
+    <form id="authenticationForm" method="post">
+        <div id="divLogin">
+            <p>Вход для администратора</p>
+            <p>
+                <label>Логин</label>
+                <input id="tbLogin" type="text" name="Login"/>
+            </p>
+            <p>
+                <label>Пароль</label>
+                <input id="tbPassword" type="password" name="Password"/>
+            </p>
+            <input type="button" id="adminLogin" value="Войти"/>
+        </div>
+        <div id="divLogout">
+            <input type="button" id="adminLogout" value="Выйти"/>            
+        </div>
+    </form>
+</div>

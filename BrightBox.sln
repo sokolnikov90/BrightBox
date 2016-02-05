@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrightBox", "BrightBox\BrightBox.csproj", "{42BAA168-244C-4170-AC21-69A109DC4595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrightBoxClient", "BrightBoxClient\BrightBoxClient.csproj", "{4B3E10EB-7D12-44CF-90CF-B8DAE25C6661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42BAA168-244C-4170-AC21-69A109DC4595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BAA168-244C-4170-AC21-69A109DC4595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BAA168-244C-4170-AC21-69A109DC4595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BAA168-244C-4170-AC21-69A109DC4595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3E10EB-7D12-44CF-90CF-B8DAE25C6661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3E10EB-7D12-44CF-90CF-B8DAE25C6661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3E10EB-7D12-44CF-90CF-B8DAE25C6661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3E10EB-7D12-44CF-90CF-B8DAE25C6661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
